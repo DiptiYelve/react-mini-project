@@ -21,27 +21,25 @@ A simple and responsive weather forecasting app built with **Vite**, **React.js*
 To run this project locally, follow the steps below:
 
 ### 1. Clone the repository
-
-```bash
-git clone https://github.com/DiptiYelve/react-mini-project.git
-cd react-mini-project
-
+    ```bash
+    git clone https://github.com/DiptiYelve/react-mini-project.git
+    cd react-mini-project
 ### 2. Install dependencies
-Make sure you have Node.js installed, then run the following command to install the required dependencies:
-
-```bash
-npm install
+    Make sure you have Node.js installed, then run the following command to install the required dependencies:
+    
+    ```bash
+    npm install
 
 ### 3. Set up the OpenWeatherMap API
-Go to the OpenWeatherMap website and create an account if you don't have one.
-After logging in, navigate to the API Keys section and create a new API key or use the default one.
-Copy the API key.
+1. Go to the OpenWeatherMap website and create an account if you don't have one.
+2. After logging in, navigate to the API Keys section and create a new API key or use the default one.
+3. Copy the API key.
 
 ### 4. Add the API Key to your .env file
 Create a .env file in the root directory of your project and add the following:
 
-```env
-VITE_API_KEY=your_api_key_here
+    ```env
+    VITE_API_KEY=your_api_key_here
 
 Replace your_api_key_here with the API key you copied from OpenWeatherMap.
 
