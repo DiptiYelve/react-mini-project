@@ -22,12 +22,14 @@ To run this project locally, follow the steps below:
 
 ### 1. Clone the repository
     bash
+    
     git clone https://github.com/DiptiYelve/react-mini-project.git
     cd react-mini-project
 ### 2. Install dependencies
 Make sure you have Node.js installed, then run the following command to install the required dependencies:
     
     bash
+    
     npm install
 
 ### 3. Set up the OpenWeatherMap API
@@ -39,6 +41,7 @@ Make sure you have Node.js installed, then run the following command to install 
 Create a .env file in the root directory of your project and add the following:
 
     env
+    
     VITE_API_KEY=your_api_key_here
 
 Replace your_api_key_here with the API key you copied from OpenWeatherMap.
@@ -47,4 +50,5 @@ Replace your_api_key_here with the API key you copied from OpenWeatherMap.
 Once you’ve set up everything, start the development server:
 
     bash
+    
     npm run dev
